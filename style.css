@@ -1,0 +1,114 @@
+nav{
+  background-color: #333;
+  padding: 12px;
+ 
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+nav li{
+  display: inline;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover{
+  color: yellow;
+}
+
+.container{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+#name{
+  background-color: white;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border: 4px solid gray;
+  border-radius: 10px;
+}
+#name p{
+  color: cornflowerblue;
+}
+.project-page h1{
+  color: #8b0000;
+}
+.project-page h2{
+  color: #df1793;
+}
+.project-page h3{
+  color: #730f4f;
+}
+table{
+  width: 60%;
+  margin: 3px auto;
+  border-collapse: collapse;
+}
+th{
+  background-color: #98fbfb;
+}
+td{
+  text-align: center;
+  padding: 2px;
+  border: 2px solid #838383;
+  background-color: #e2e2ea;
+
+}
+.index-page h2{
+  background-color: #f4f4f4;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+    color: #8b0000;
+}
+.Skills{
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  list-style: circle blue;
+  padding: 0px;
+}
+.skills li{
+  background-color: #f4f4f4;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #333;
+}
+.index-page p{
+  display: flex;
+  justify-content: center;
+}
+/* Articles page */
+
+.articles{
+  width: 60%;
+  margin: 40px auto;
+}
+
+.articles h1{
+  text-align: center;
+  color:rebeccapurple;
+}
+
+.articles h2{
+  margin-top: 30px;
+  color: darkblue;
+}
+
+.articles p{
+  line-height: 1.6;
+  font-size: 17px;
+}
